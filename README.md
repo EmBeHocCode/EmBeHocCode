@@ -7,8 +7,9 @@
   <a href="https://www.facebook.com/hungng.0505/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
   </a>
-  <img src="https://visitcount.itsvg.in/api?id=EmBeHocCode"/>
+  <img src="./favicon.gif" width="20"/>
 </p>
+
 
 ---
 
