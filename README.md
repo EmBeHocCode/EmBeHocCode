@@ -10,11 +10,13 @@
   <img src="./favicon.gif" width="20"/>
 </p>
 
+### 🌐 Personal Website
 <p align="center">
   <a href="https://mieowparadise.io.vn/" target="_blank">
-    <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
+    <img src="https://opengraph.githubassets.com/1/EmBeHocCode/mieowparadise"/>
   </a>
 </p>
+
 
 
 
