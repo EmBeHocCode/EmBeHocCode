@@ -13,7 +13,7 @@
   <a href="https://mieowparadise.io.vn/">
     <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
   </a>
-  <a href="https://discord.com/users/ID_CUA_BAN">
+  <a href="https://discord.com/users/remi1767">
     <img src="https://img.shields.io/badge/Discord-remi1767-5865F2?logo=discord&logoColor=white"/>
   </a>
 </p>
