@@ -11,13 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.facebook.com/hungng.0505/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://mieowparadise.io.vn/">
+  <a href="https://mieowparadise.io.vn/" target="_blank">
     <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
   </a>
 </p>
+
 
 
 
