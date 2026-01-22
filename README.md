@@ -16,6 +16,13 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://discord.com/users/remil7676">
+    <img src="https://img.shields.io/badge/Discord-remi1767-5865F2?logo=discord&logoColor=white"/>
+  </a>
+</p>
+
+
 
 
 
