@@ -22,9 +22,7 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 😂 Dev Humor
+![Code Meme](https://raw.githubusercontent.com/abhisheknaiidu/awesome-github-profile-readme/master/assets/code.gif)
+
 ![Jokes](https://readme-jokes.vercel.app/api)
 
----
-![Profile Views](https://visitcount.itsvg.in/api?id=EmBeHocCode)
-![Status](https://img.shields.io/badge/Status-Coding%20in%20progress-orange)
-![Copilot](https://img.shields.io/badge/GitHub%20Copilot-Enabled-blueviolet)
