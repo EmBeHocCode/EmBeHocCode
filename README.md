@@ -19,5 +19,10 @@
 <img src="https://random-memer.herokuapp.com/" width="512px"/>
 
 ---
+![Profile Views](https://visitcount.itsvg.in/api?id=EmBeHocCode)
 ![Status](https://img.shields.io/badge/Status-Coding%20in%20progress-orange)
+![Copilot](https://img.shields.io/badge/GitHub%20Copilot-Enabled-blueviolet)
+
+![Jokes](https://readme-jokes.vercel.app/api)
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
