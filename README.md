@@ -3,28 +3,20 @@
   💻 Student Developer • 🚀 Learning & Building
 </p>
 
+
+
 <p align="center">
   <a href="https://www.facebook.com/hungng.0505/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
   </a>
-</p>
-
-<p align="center">
   <img src="./favicon.gif" width="20"/>
-  <a href="https://mieowparadise.io.vn/" target="_blank">
+  <a href="https://mieowparadise.io.vn/">
     <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
   </a>
-</p>
-
-<p align="center">
-  <a href="https://discord.com/users/remil7676">
+  <a href="https://discord.com/users/ID_CUA_BAN">
     <img src="https://img.shields.io/badge/Discord-remi1767-5865F2?logo=discord&logoColor=white"/>
   </a>
 </p>
-
-
-
-
 
 
 
