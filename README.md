@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm EmBeHocCode</h1>
+<h1 align="center">Hi 👋, I'm EmBeHocCode (By Ngáo)</h1>
 <p align="center">
   💻 Student Developer • 🚀 Learning & Building
 </p>
