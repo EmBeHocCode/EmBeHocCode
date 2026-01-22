@@ -26,3 +26,5 @@
 
 ![Jokes](https://readme-jokes.vercel.app/api)
 
+<img src="./favicon.gif" width="120"/>
+
