@@ -1,30 +1,66 @@
-## 🌐 Socials
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/hungng.0505/)
+<h1 align="center">Hi 👋, I'm EmBeHocCode</h1>
+<p align="center">
+  💻 Student Developer • 🚀 Learning & Building
+</p>
 
-# 💻 Tech Stack
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=plastic&logo=kotlin&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=plastic&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
+<p align="center">
+  <a href="https://www.facebook.com/hungng.0505/">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
+  </a>
+  <img src="https://visitcount.itsvg.in/api?id=EmBeHocCode"/>
+</p>
 
-# 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=EmBeHocCode&theme=radical)
-![](https://github-readme-streak-stats.herokuapp.com/?user=EmBeHocCode&theme=radical)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=EmBeHocCode&layout=compact&theme=radical)
+---
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## 💻 Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white"/>
+</p>
 
-### 😂 Dev Humor
-![Code Meme](https://raw.githubusercontent.com/abhisheknaiidu/awesome-github-profile-readme/master/assets/code.gif)
+---
 
-![Jokes](https://readme-jokes.vercel.app/api)
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EmBeHocCode&theme=radical"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmBeHocCode&theme=radical"/>
+</p>
 
-<img src="./favicon.gif" width="120"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmBeHocCode&layout=compact&theme=radical"/>
+</p>
 
+---
+
+## ✍️ Dev Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
+
+---
+
+## 😂 Dev Humor
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/awesome-github-profile-readme/master/assets/code.gif" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api"/>
+</p>
+
+<p align="center">
+  <img src="./favicon.gif" width="100"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Coding%20in%20progress-orange"/>
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-Enabled-blueviolet"/>
+</p>
