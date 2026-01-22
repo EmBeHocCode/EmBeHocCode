@@ -9,7 +9,9 @@
   <a href="https://www.facebook.com/hungng.0505/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
   </a>
-  <img src="./favicon.gif" width="20"/>
+</p>
+
+<p align="center">
   <a href="https://mieowparadise.io.vn/">
     <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
   </a>
@@ -17,7 +19,6 @@
     <img src="https://img.shields.io/badge/Discord-embi_dev-5865F2?logo=discord&logoColor=white"/>
   </a>
 </p>
-
 
 
 ---
