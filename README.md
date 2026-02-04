@@ -61,15 +61,9 @@
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Stats
 
-<p align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EmBeHocCode&show_icons=true&theme=radical&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=EmBeHocCode&theme=radical&hide_border=true)
-
-</p>
+![Metrics](https://metrics.lecoq.io/EmBeHocCode?template=classic&isocalendar=1&languages=1&activity=1&base=header%2Cactivity%2Ccommunity%2Crepositories)
 ---
 
 ## 💬 A Thought I Like
