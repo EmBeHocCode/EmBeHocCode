@@ -62,14 +62,12 @@
 ---
 
 ## 📊 GitHub Activity
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EmBeHocCode&theme=radical"/>
-</p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmBeHocCode&theme=radical"/>
-</p>
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EmBeHocCode&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800"/>
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=EmBeHocCode&theme=radical&hide_border=true"/>
+</div>
 ---
 
 ## 💬 A Thought I Like
