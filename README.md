@@ -100,5 +100,5 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://readme-jokes.vercel.app/api" alt="Joke"/>
+  <img src="./assets/fun-card.svg" width="100%" alt="Fun card"/>
 </p>
