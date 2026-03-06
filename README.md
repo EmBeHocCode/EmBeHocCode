@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&height=72&lines=Year+3+IT+Student+(E-Commerce+Major);Building+Commerce+Projects+with+AI;Future+Fullstack+Developer+%7C+AI+Builder;Chill+Workflow+%2B+Clear+Thinking+%2B+Real+Output" alt="Typing subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&height=72&lines=Year+3+IT+Student+(E-Commerce+Major);Building+Commerce+Projects+with+AI;Future+Path:+E-Commerce+%2B+AI+Product+Execution;Chill+Workflow+%2B+Clear+Thinking+%2B+Real+Output" alt="Typing subtitle" />
 </p>
 
 <p align="center">
@@ -36,11 +36,11 @@
   <img src="./assets/headings/about-me.svg" width="82%" alt="About Me" />
 </p>
 
-- 🇻🇳 Mình là sinh viên năm 3 ngành CNTT, chuyên ngành **Thương mại điện tử**.
-- 🇺🇸 I am a 3rd-year IT student majoring in **E-Commerce**.
-- 🧠 Thế mạnh cá nhân: dùng AI để tăng tốc code, nhưng vẫn tự tư duy hướng đi và kế hoạch.
-- 🛋️ Work vibe: chill, linh hoạt, ưu tiên làm việc từ xa/tại nhà.
-- 🎮 Ngoài web, mình còn thích làm game nhỏ và tool vui vui.
+- 🎓 I am a 3rd-year IT student majoring in **E-Commerce**.
+- 🧠 My strongest point is using AI to accelerate execution while keeping strategy and planning human-led.
+- 🛋️ Work vibe: chill, flexible, and remote-friendly.
+- 🌐 I enjoy building web products, mini games, and useful/fun tools.
+- 🐾 Alias: **Em Meow** / **EmBeby**.
 
 > I build software that solves real problems, not just writes code.
 
@@ -50,9 +50,9 @@
   <img src="./assets/headings/current-focus.svg" width="82%" alt="Current Focus" />
 </p>
 
-- 🚧 Đang xây dựng dự án tốt nghiệp/commerce có tích hợp AI.
-- 🔭 Mục tiêu gần: trở thành **Fullstack Developer** và làm sản phẩm có ứng dụng AI thực tế.
-- 🧩 Rèn tư duy hệ thống, planning, và triển khai end-to-end.
+- 🚧 Building graduation-oriented commerce projects with AI integration.
+- 🎯 Future path: **E-Commerce specialist with strong AI execution**, not a pure developer track.
+- 🧩 Improving product thinking, system planning, and end-to-end delivery.
 
 ---
 
@@ -63,11 +63,11 @@
 | Stage | Focus |
 |---|---|
 | 1 | Business mindset from E-Commerce |
-| 2 | Product planning + system analysis |
-| 3 | Frontend depth (React/Next/TypeScript) |
-| 4 | Fullstack architecture + API/database |
-| 5 | AI integration in modern applications |
-| 6 | Deployment, iteration, and real user value |
+| 2 | Product planning and system analysis |
+| 3 | Commerce workflow design and customer experience |
+| 4 | AI automation for commerce operations |
+| 5 | Data-informed experiments and growth optimization |
+| 6 | Build scalable commerce solutions with measurable value |
 
 ---
 
@@ -75,7 +75,7 @@
   <img src="./assets/headings/tech-stack.svg" width="82%" alt="Tech Stack" />
 </p>
 
-**Core (using now)**
+**Core toolkit (for commerce projects)**
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3"/>
@@ -123,7 +123,7 @@
 </p>
 
 ### Featured Project
-- [The-Bot-Demo](https://github.com/EmBeHocCode/The-Bot-Demo): project đang build theo hướng commerce + AI integration.
+- [The-Bot-Demo](https://github.com/EmBeHocCode/The-Bot-Demo): an in-progress commerce-focused project with AI integration.
 
 ### Achievements (Current)
 - ✅ Year 3 IT student (E-Commerce major), actively building graduation-oriented projects.

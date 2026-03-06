@@ -15,8 +15,8 @@ Third-year Information Technology student, majoring in E-Commerce. I focus on bu
 - Status: Year 3 student
 
 ## Career Goal
-- Become a Fullstack Developer.
-- Build modern AI-powered applications with real business value.
+- Build a career in **E-Commerce**, with strong AI and technology execution capabilities.
+- Design and ship commerce projects that improve operations, customer experience, and measurable outcomes.
 
 ## Technical Skills
 ### Core
@@ -40,7 +40,7 @@ Third-year Information Technology student, majoring in E-Commerce. I focus on bu
 ## Strengths
 - Strong AI-assisted coding workflow.
 - Independent planning and direction setting.
-- Business + technical mindset combination.
+- Business + technology mindset combination.
 
 ## Work Preference
 - Chill and flexible workflow.
