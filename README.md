@@ -30,7 +30,9 @@
 
 ---
 
-## About Me
+<p align="center">
+  <img src="./assets/headings/about-me.svg" width="100%" alt="About Me" />
+</p>
 - 🎓 Major: **E-Commerce**
 - 💻 Direction: **Software Engineering**
 - 🔍 I enjoy understanding both **business logic** and **system logic**
@@ -40,7 +42,9 @@
 
 ---
 
-## Learning Roadmap
+<p align="center">
+  <img src="./assets/headings/learning-roadmap.svg" width="100%" alt="Learning Roadmap" />
+</p>
 ```mermaid
 flowchart LR
     A["Business mindset (E-Commerce)"] --> B["System analysis"]
@@ -52,7 +56,9 @@ flowchart LR
 
 ---
 
-## Tech Stack (Learning & Using)
+<p align="center">
+  <img src="./assets/headings/tech-stack.svg" width="100%" alt="Tech Stack" />
+</p>
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
@@ -67,7 +73,9 @@ flowchart LR
 
 ---
 
-## Current Focus
+<p align="center">
+  <img src="./assets/headings/current-focus.svg" width="100%" alt="Current Focus" />
+</p>
 - 📦 Learning **E-Commerce systems & workflows**
 - 🧩 Practicing **software fundamentals, clean code, and OOP**
 - 🔄 Improving **problem-solving through project-based learning**
@@ -75,7 +83,9 @@ flowchart LR
 
 ---
 
-## GitHub Stats
+<p align="center">
+  <img src="./assets/headings/github-stats.svg" width="100%" alt="GitHub Stats" />
+</p>
 <p align="center">
   <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EmBeHocCode&theme=github_dark" alt="GitHub stats"/>
   <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=github_dark" alt="Top languages"/>
@@ -87,14 +97,18 @@ flowchart LR
 
 ---
 
-## A Thought I Like
+<p align="center">
+  <img src="./assets/headings/thought.svg" width="100%" alt="A Thought I Like" />
+</p>
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
 </p>
 
 ---
 
-## Just for Fun
+<p align="center">
+  <img src="./assets/headings/just-for-fun.svg" width="100%" alt="Just for Fun" />
+</p>
 <p align="center">
   <img src="./favicon.gif" width="90" alt="Fun gif"/>
 </p>

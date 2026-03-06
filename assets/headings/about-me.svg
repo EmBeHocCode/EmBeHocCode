@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" role="img" aria-labelledby="title desc">
+  <title id="title">About Me</title>
+  <desc id="desc">Neon animated section heading.</desc>
+
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+      <animate attributeName="x1" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="4.2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="600" y="58" text-anchor="middle" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" fill="#67e8f9" filter="url(#glow)">About Me
+    <animate attributeName="fill" values="#67e8f9;#60a5fa;#a78bfa;#22d3ee;#67e8f9" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.72;1" dur="1.8s" repeatCount="indefinite"/>
+  </text>
+
+  <rect x="140" y="72" width="920" height="3" rx="2" fill="url(#line)" opacity="0.95"/>
+</svg>
