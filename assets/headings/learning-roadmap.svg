@@ -4,9 +4,9 @@
 
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="50%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#c084fc"/>
       <animate attributeName="x1" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="1;0;1" dur="4.2s" repeatCount="indefinite"/>
     </linearGradient>
@@ -19,8 +19,8 @@
     </filter>
   </defs>
 
-  <text x="600" y="58" text-anchor="middle" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" fill="#67e8f9" filter="url(#glow)">Learning Roadmap
-    <animate attributeName="fill" values="#67e8f9;#60a5fa;#a78bfa;#22d3ee;#67e8f9" dur="5.5s" repeatCount="indefinite"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" fill="#fbcfe8" filter="url(#glow)">Learning Roadmap
+    <animate attributeName="fill" values="#fbcfe8;#ec4899;#c084fc;#f472b6;#fbcfe8" dur="5.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0.72;1" dur="1.8s" repeatCount="indefinite"/>
   </text>
 

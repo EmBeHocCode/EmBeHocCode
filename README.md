@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&height=72&lines=Year+3+IT+Student+(E-Commerce+Major);Building+Commerce+Projects+with+AI;Future+Path:+E-Commerce+%2B+AI+Product+Execution;Chill+Workflow+%2B+Clear+Thinking+%2B+Real+Output" alt="Typing subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=F472B6&center=true&vCenter=true&width=980&height=72&lines=Year+3+IT+Student+(E-Commerce+Major);Building+Commerce+Projects+with+AI;Future+Path:+E-Commerce+%2B+AI+Product+Execution;Chill+Workflow+%2B+Clear+Thinking+%2B+Real+Output" alt="Typing subtitle" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EmBeHocCode&label=Profile+Views&color=0e75b6&style=flat" alt="Profile views"/>
-  <img src="https://img.shields.io/badge/Style-Neon%20%2B%20Cute-ec4899" alt="Style"/>
-  <img src="https://img.shields.io/badge/Work-Remote%20%2F%20At%20Home-22c55e" alt="Work style"/>
-  <img src="https://img.shields.io/badge/Status-Building%20with%20AI-6366f1" alt="Status"/>
+  <img src="https://img.shields.io/badge/Style-Cute%20Neon-f472b6" alt="Style"/>
+  <img src="https://img.shields.io/badge/Work-Chill%20Remote-f9a8d4" alt="Work style"/>
+  <img src="https://img.shields.io/badge/Status-AI%20Commerce%20Builder-c084fc" alt="Status"/>
 </p>
 
 <p align="center">
@@ -109,11 +109,11 @@
   <img src="./assets/headings/github-stats.svg" width="82%" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EmBeHocCode&theme=github_dark" alt="GitHub stats"/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=github_dark" alt="Top languages"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EmBeHocCode&theme=dracula" alt="GitHub stats"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=dracula" alt="Top languages"/>
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=github_dark" alt="Profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=dracula" alt="Profile details"/>
 </p>
 
 ---
