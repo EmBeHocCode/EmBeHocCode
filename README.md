@@ -1,90 +1,100 @@
-<h1 align="center">👋 Hi, I'm EmBeHocCode</h1>
+<h1 align="center">Hi, I'm EmBeHocCode 👋</h1>
 
 <p align="center">
-  🎓 E-Commerce Student · 💻 Software Engineering Enthusiast
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=E-Commerce+Student+%7C+Software+Engineering+Learner;I+love+turning+business+ideas+into+working+software;Learning+every+day%2C+building+step+by+step" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  I study how businesses work — and I learn how software makes them scale.
+  <a href="https://komarev.com/ghpvc/?username=EmBeHocCode">
+    <img src="https://komarev.com/ghpvc/?username=EmBeHocCode&label=Profile+Views&color=0e75b6&style=flat" alt="Profile views"/>
+  </a>
+  <img src="https://img.shields.io/badge/Status-Learning%20Every%20Day-orange" alt="Status"/>
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-Enabled-blueviolet" alt="Copilot"/>
 </p>
 
 <p align="center">
   <a href="https://www.facebook.com/hungng.0505/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white" alt="Facebook"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="./favicon.gif" width="20"/>
   <a href="https://bio.mieowparadise.io.vn/">
-    <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
   <a href="https://discord.com/users/embi_dev">
-    <img src="https://img.shields.io/badge/Discord-embi_dev-5865F2?logo=discord&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Discord-embi_dev-5865F2?logo=discord&logoColor=white" alt="Discord"/>
   </a>
 </p>
 
-
 ---
 
-## 🧭 About Me
+## About Me
 - 🎓 Major: **E-Commerce**
-- 💡 Strong interest in **Software Engineering**
+- 💻 Direction: **Software Engineering**
 - 🔍 I enjoy understanding both **business logic** and **system logic**
-- 🧠 Goal: build software that actually solves real-world business problems
+- 🧠 Goal: build products that solve real problems, not just write code
 
-> I believe good software is not just about code —  
-> it’s about understanding *why* the system exists.
+> Good software starts with one question: **Why does this system need to exist?**
 
 ---
 
-## 🛠️ Tech Stack (Learning & Using)
+## Learning Roadmap
+```mermaid
+flowchart LR
+    A["Business mindset (E-Commerce)"] --> B["System analysis"]
+    B --> C["Software fundamentals + OOP"]
+    C --> D["Build practical projects"]
+    D --> E["Optimize UX and performance"]
+    E --> F["Deliver real business value"]
+```
+
+---
+
+## Tech Stack (Learning & Using)
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white" alt="C Sharp"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white" alt="C Plus Plus"/>
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white" alt="MongoDB"/>
 </p>
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 - 📦 Learning **E-Commerce systems & workflows**
-- 🧩 Practicing **software fundamentals & OOP**
-- 🔄 Improving **problem-solving through coding**
-- 🛠️ Building small projects to connect business ideas with code
+- 🧩 Practicing **software fundamentals, clean code, and OOP**
+- 🔄 Improving **problem-solving through project-based learning**
+- 🛠️ Building mini products that connect **business ideas + code**
 
 ---
 
-## 📊 GitHub Stats
-
-![Metrics](https://metrics.lecoq.io/EmBeHocCode?template=classic&isocalendar=1&languages=1&activity=1&base=header%2Cactivity%2Ccommunity%2Crepositories)
----
-
-## 💬 A Thought I Like
+## GitHub Stats
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=EmBeHocCode&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmBeHocCode&layout=compact&theme=transparent&hide_border=true" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=github_dark" alt="Profile details"/>
 </p>
 
 ---
 
-## 😄 Just for Fun
+## A Thought I Like
 <p align="center">
-  <img src="./favicon.gif" width="90"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
 </p>
 
 ---
 
+## Just for Fun
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Learning%20Every%20Day-orange"/>
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-Enabled-blueviolet"/>
+  <img src="./favicon.gif" width="90" alt="Fun gif"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api" alt="Joke"/>
 </p>
