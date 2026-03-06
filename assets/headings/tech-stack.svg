@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" role="img" aria-labelledby="title desc">
-  <title id="title">Tech Stack (Learning & Using)</title>
+  <title id="title">Tech Stack (Learning &amp; Using)</title>
   <desc id="desc">Neon animated section heading.</desc>
 
   <defs>
@@ -19,7 +19,7 @@
     </filter>
   </defs>
 
-  <text x="600" y="58" text-anchor="middle" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" fill="#67e8f9" filter="url(#glow)">Tech Stack (Learning & Using)
+  <text x="600" y="58" text-anchor="middle" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" fill="#67e8f9" filter="url(#glow)">Tech Stack (Learning &amp; Using)
     <animate attributeName="fill" values="#67e8f9;#60a5fa;#a78bfa;#22d3ee;#67e8f9" dur="5.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0.72;1" dur="1.8s" repeatCount="indefinite"/>
   </text>
