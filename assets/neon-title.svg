@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">EmBeHocCode Neon Banner</title>
+  <desc id="desc">Animated neon text banner with blinking and color shift effect.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b1024"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+    </filter>
+
+    <filter id="strongGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="small"/>
+      <feGaussianBlur stdDeviation="9" result="big"/>
+      <feMerge>
+        <feMergeNode in="small"/>
+        <feMergeNode in="big"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)" rx="24"/>
+
+  <g transform="translate(600 108)">
+    <text text-anchor="middle" font-size="78" font-weight="800" font-family="Orbitron, Segoe UI, Arial, sans-serif" fill="#00e5ff" filter="url(#blurGlow)">EMBEHOCCODE
+      <animate attributeName="fill" values="#00e5ff;#39ff14;#ff4dff;#00e5ff" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0.55;1;0.35;1;0.8;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text text-anchor="middle" font-size="78" font-weight="800" font-family="Orbitron, Segoe UI, Arial, sans-serif" fill="#9efcff" filter="url(#strongGlow)">EMBEHOCCODE
+      <animate attributeName="fill" values="#9efcff;#87ff9b;#ff9cff;#9efcff" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.95;0.45;1;0.6;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text text-anchor="middle" font-size="78" font-weight="800" font-family="Orbitron, Segoe UI, Arial, sans-serif" fill="#d7ffff">EMBEHOCCODE
+      <animate attributeName="fill" values="#d7ffff;#f0fff0;#ffe3ff;#d7ffff" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0.8;1;0.55;1;0.9;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="600" y="196" text-anchor="middle" font-size="26" font-family="Consolas, Segoe UI, Arial, sans-serif" fill="#86b8ff" letter-spacing="2">BUILDING SOFTWARE FOR REAL BUSINESS VALUE
+    <animate attributeName="fill" values="#86b8ff;#56f3ff;#8cffb4;#86b8ff" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <g fill="none" stroke="#2dd4bf" stroke-width="2" opacity="0.35">
+    <path d="M70 220 H1130">
+      <animate attributeName="stroke" values="#2dd4bf;#60a5fa;#e879f9;#2dd4bf" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
