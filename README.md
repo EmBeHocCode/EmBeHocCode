@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/subtitle-color-cycle.svg" width="100%" alt="Color cycling subtitle" />
+  <img src="./assets/subtitle-rotating.svg" width="100%" alt="Rotating color subtitle" />
 </p>
 
 <p align="center">
