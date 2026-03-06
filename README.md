@@ -72,7 +72,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/headings/tech-stack.svg" width="82%" alt="Tech Stack" />
+  <img src="./assets/headings/tech-stack-v2.svg" width="82%" alt="Tech Stack" />
 </p>
 
 **Core toolkit (for commerce projects)**
