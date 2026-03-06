@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=2E9EF7&center=true&vCenter=true&width=760&lines=E-Commerce+Student+%7C+Software+Engineering;Building+software+for+real+business+needs;Learning+every+day%2C+shipping+step+by+step" alt="Typing SVG" />
+  <img src="./assets/subtitle-color-cycle.svg" width="100%" alt="Color cycling subtitle" />
 </p>
 
 <p align="center">

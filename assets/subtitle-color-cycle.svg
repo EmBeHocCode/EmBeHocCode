@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 88" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Subtitle</title>
+  <desc id="desc">Animated color-cycling subtitle text.</desc>
+
+  <defs>
+    <filter id="softGlow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="2.8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="600" y="58" text-anchor="middle" font-size="46" font-weight="700" font-family="Consolas, Segoe UI, Arial, sans-serif" fill="#38bdf8" filter="url(#softGlow)">
+    E-Commerce Student | Software Engineering
+    <animate attributeName="fill" values="#38bdf8;#22d3ee;#60a5fa;#a78bfa;#34d399;#38bdf8" dur="5.5s" repeatCount="indefinite"/>
+  </text>
+</svg>
