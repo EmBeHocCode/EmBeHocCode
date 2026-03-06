@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Mieow EMC Neon Banner</title>
+  <desc id="desc">Animated neon text banner with blinking and color shift effect.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14081f"/>
+      <stop offset="50%" stop-color="#1f1033"/>
+      <stop offset="100%" stop-color="#0f0720"/>
+    </linearGradient>
+
+    <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+    </filter>
+
+    <filter id="strongGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="small"/>
+      <feGaussianBlur stdDeviation="9" result="big"/>
+      <feMerge>
+        <feMergeNode in="small"/>
+        <feMergeNode in="big"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)" rx="24"/>
+
+  <g transform="translate(600 108)">
+    <text text-anchor="middle" font-size="86" font-weight="700" font-style="italic" font-family="Georgia, Times New Roman, serif" fill="#f472b6" filter="url(#blurGlow)">Mieow EMC
+      <animate attributeName="fill" values="#f472b6;#ec4899;#c084fc;#f472b6" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0.55;1;0.35;1;0.8;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text text-anchor="middle" font-size="86" font-weight="700" font-style="italic" font-family="Georgia, Times New Roman, serif" fill="#fbcfe8" filter="url(#strongGlow)">Mieow EMC
+      <animate attributeName="fill" values="#fbcfe8;#f9a8d4;#ddd6fe;#fbcfe8" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.95;0.45;1;0.6;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text text-anchor="middle" font-size="86" font-weight="700" font-style="italic" font-family="Georgia, Times New Roman, serif" fill="#fdf2f8">Mieow EMC
+      <animate attributeName="fill" values="#fdf2f8;#fce7f3;#f5d0fe;#fdf2f8" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0.8;1;0.55;1;0.9;1" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="600" y="196" text-anchor="middle" font-size="26" font-family="Consolas, Segoe UI, Arial, sans-serif" fill="#f9a8d4" letter-spacing="2">BUILDING SOFTWARE FOR REAL BUSINESS VALUE
+    <animate attributeName="fill" values="#f9a8d4;#f472b6;#c084fc;#f9a8d4" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <g fill="none" stroke="#f472b6" stroke-width="2" opacity="0.45">
+    <path d="M70 220 H1130">
+      <animate attributeName="stroke" values="#f472b6;#ec4899;#c084fc;#f472b6" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

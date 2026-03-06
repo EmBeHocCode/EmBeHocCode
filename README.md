@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Mieow EMC 👋</h1>
 
 <p align="center">
-  <img src="./assets/neon-title.svg" width="94%" alt="Neon banner" />
+  <img src="./assets/neon-title-v2.svg" width="94%" alt="Neon banner" />
 </p>
 
 <p align="center">
