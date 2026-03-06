@@ -16,7 +16,7 @@
 
 <p align="center">
   <img src="./favicon.gif" width="20"/>
-  <a href="https://mieowparadise.io.vn/">
+  <a href="https://bio.mieowparadise.io.vn/">
     <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white"/>
   </a>
   <a href="https://discord.com/users/embi_dev">
