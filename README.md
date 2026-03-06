@@ -73,8 +73,8 @@ flowchart LR
 
 ## GitHub Stats
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=EmBeHocCode&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmBeHocCode&layout=compact&theme=transparent&hide_border=true" alt="Top languages"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EmBeHocCode&theme=github_dark" alt="GitHub stats"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=github_dark" alt="Top languages"/>
 </p>
 
 <p align="center">
