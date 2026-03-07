@@ -1,0 +1,29 @@
+name: Profile Summary Cards
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "profile-summary-card-output/**"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: EmBeHocCode
+          BRANCH: main
+          UTC_OFFSET: 7
+          AUTO_PUSH: true
+          THEME: dracula

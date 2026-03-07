@@ -104,11 +104,11 @@
   <img src="./assets/headings/github-stats.svg" width="82%" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EmBeHocCode&theme=dracula" alt="GitHub stats"/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=dracula" alt="Top languages"/>
+  <img height="170" src="./profile-summary-card-output/dracula/3-stats.svg" alt="GitHub stats"/>
+  <img height="170" src="./profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Top languages"/>
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=dracula" alt="Profile details"/>
+  <img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile details"/>
 </p>
 
 ---
