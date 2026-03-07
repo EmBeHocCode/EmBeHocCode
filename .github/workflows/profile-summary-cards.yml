@@ -17,13 +17,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
           USERNAME: EmBeHocCode
-          BRANCH: main
+          BRANCH_NAME: main
           UTC_OFFSET: 7
           AUTO_PUSH: true
-          THEME: dracula
