@@ -60,14 +60,9 @@
   <img src="./assets/headings/learning-roadmap.svg" width="82%" alt="Learning Roadmap" />
 </p>
 
-| Stage | Focus |
-|---|---|
-| 1 | Business mindset from E-Commerce |
-| 2 | Product planning and system analysis |
-| 3 | Commerce workflow design and customer experience |
-| 4 | AI automation for commerce operations |
-| 5 | Data-informed experiments and growth optimization |
-| 6 | Build scalable commerce solutions with measurable value |
+<p align="center">
+  <img src="./assets/roadmap-diagram.svg" width="100%" alt="Commerce and AI roadmap diagram" />
+</p>
 
 ---
 
