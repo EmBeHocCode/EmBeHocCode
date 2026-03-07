@@ -122,8 +122,12 @@
   <img src="./assets/headings/projects-cv.svg" width="82%" alt="Projects and CV" />
 </p>
 
-### Featured Project
+### Featured Projects
+- [mieow-bio](https://github.com/EmBeHocCode/mieow-bio): personal bio / profile web project with a clean identity-focused presentation.
 - [The-Bot-Demo](https://github.com/EmBeHocCode/The-Bot-Demo): an in-progress commerce-focused project with AI integration.
+- [MieowTruyenTranh](https://github.com/EmBeHocCode/MieowTruyenTranh): a comic-themed web project in the Mieow ecosystem.
+
+More public repos are available on my GitHub profile, but these are the main ones I currently want to highlight.
 
 ### Achievements (Current)
 - ✅ Year 3 IT student (E-Commerce major), actively building graduation-oriented projects.
