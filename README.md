@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img width="100%" src="./assets/mieow-banner.svg" alt="Mieow cyber banner with the official cat logo" />
+  <img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-banner.svg" alt="Mieow cyber banner with the official cat logo" />
 
   <a href="https://github.com/EmBeHocCode/EmBeHocCode/actions/workflows/switch-profile-theme.yml">
     <img src="https://img.shields.io/badge/SWITCH_PROFILE_THEME-FF0066?style=for-the-badge&logo=githubactions&logoColor=white" alt="Switch profile theme" />
@@ -11,9 +11,9 @@
 
   <br />
 
-  <img width="22%" align="middle" src="./assets/mieow-hud-left.svg" alt="Build mode active" />
-  <img width="170" height="170" align="middle" src="./assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
-  <img width="22%" align="middle" src="./assets/mieow-hud-right.svg" alt="Focus: AI and commerce" />
+  <img width="22%" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-hud-left.svg" alt="Build mode active" />
+  <img width="170" height="170" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
+  <img width="22%" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-hud-right.svg" alt="Focus: AI and commerce" />
 
   <br />
 
@@ -33,9 +33,9 @@
 
 </div>
 
-<img width="100%" src="./assets/mieow-divider.svg" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-<img width="100%" src="./assets/headings/about-me.svg" alt="Whoami — identity scan" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/about-me.svg" alt="Whoami — identity scan" />
 
 > **Mieow // Product-minded builder**  
 > Third-year Information Technology student majoring in **E-Commerce**.
@@ -48,7 +48,7 @@ building  web products · automation tools · playful experiments
 style     curious · independent · ship-first
 ```
 
-<img width="100%" src="./assets/headings/tech-stack-v2.svg" alt="Tech constellation — core systems" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/tech-stack-v2.svg" alt="Tech constellation — core systems" />
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,bun,nodejs,python,php&theme=dark&perline=8" alt="Core technology stack" />
@@ -60,9 +60,9 @@ style     curious · independent · ship-first
   <sub><code>SYSTEM PLANNING</code> &nbsp;·&nbsp; <code>END-TO-END DELIVERY</code> &nbsp;·&nbsp; <code>AI-ASSISTED PRODUCTS</code></sub>
 </div>
 
-<img width="100%" src="./assets/mieow-divider.svg" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-<img width="100%" src="./assets/headings/projects-cv.svg" alt="Explore my projects — public archive" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/projects-cv.svg" alt="Explore my projects — public archive" />
 
 <div align="center">
 
@@ -71,7 +71,7 @@ style     curious · independent · ship-first
   <br /><br />
 
   <a href="https://github.com/EmBeHocCode?tab=repositories">
-    <img width="520" src="./assets/mieow-project-cta.svg" alt="Explore all public repositories" />
+    <img width="520" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-project-cta.svg" alt="Explore all public repositories" />
   </a>
 
   <br /><br />
@@ -87,12 +87,12 @@ style     curious · independent · ship-first
 
 </div>
 
-<img width="100%" src="./assets/mieow-divider.svg" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-<img width="100%" src="./assets/headings/github-stats.svg" alt="GitHub pulse — live telemetry" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/github-stats.svg" alt="GitHub pulse — live telemetry" />
 
 <div align="center">
-  <img width="82%" src="./assets/mieow-github-live.svg" alt="Live GitHub contribution telemetry" />
+  <img width="82%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-github-live.svg" alt="Live GitHub contribution telemetry" />
   <br />
   <img width="82%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=dark&title_color=FF0066&text_color=F8FAFC&bg_color=0D1117&border_color=EF4444&icon_color=34EACB&chart_color=FF0066" alt="Mieow GitHub activity summary" />
   <br />
@@ -100,15 +100,15 @@ style     curious · independent · ship-first
   <img width="48%" src="https://streak-stats.demolab.com?user=EmBeHocCode&hide_border=false&border_radius=12&background=135%2C0D1117%2C160A10&border=EF4444&stroke=8B5CF6&ring=FF0066&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=34EACB&sideLabels=FF0066&dates=94A3B8" alt="Mieow contribution streak" />
 </div>
 
-<img width="100%" src="./assets/headings/current-focus.svg" alt="Current quest — active missions" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/current-focus.svg" alt="Current quest — active missions" />
 
 - **COMMERCE //** Building graduation-oriented E-Commerce products.
 - **AI SYSTEMS //** Exploring AI features that solve real workflow problems.
 - **ENGINEERING //** Improving architecture, documentation, testing, and product delivery.
 
-<img width="100%" src="./assets/mieow-divider.svg" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-<img width="100%" src="./assets/headings/thought.svg" alt="Digital garden — connect and discover" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/thought.svg" alt="Digital garden — connect and discover" />
 
 <div align="center">
 
@@ -130,4 +130,4 @@ style     curious · independent · ship-first
 
 </div>
 
-<img width="100%" src="./assets/mieow-footer.svg" alt="Mieow red and pink profile footer" />
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-footer.svg" alt="Mieow red and pink profile footer" />
