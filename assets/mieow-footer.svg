@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Mieow profile footer</title>
+  <desc id="desc">A black footer with red, hot-pink, teal, and restrained violet accents.</desc>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EF4444" />
+      <stop offset="0.55" stop-color="#FF0066" />
+      <stop offset="0.9" stop-color="#FF0066" />
+      <stop offset="0.96" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#34EACB" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+  </defs>
+  <rect width="1200" height="150" fill="#0D1117" />
+  <path d="M0 18C190 66 330 0 544 27C773 56 942 7 1200 34V0H0Z" fill="url(#wave)" opacity="0.26" filter="url(#softGlow)" />
+  <path d="M0 12C190 54 340 4 548 29C770 56 958 11 1200 36" fill="none" stroke="url(#wave)" stroke-width="4" />
+  <rect x="422" y="73" width="356" height="1" fill="url(#wave)" opacity="0.72" />
+  <text x="600" y="65" text-anchor="middle" fill="#FFFFFF" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="700" letter-spacing="4">MIEOW</text>
+  <text x="600" y="99" text-anchor="middle" fill="#F8FAFC" fill-opacity="0.74" font-family="JetBrains Mono, Consolas, monospace" font-size="13" letter-spacing="2">BUILD  ·  LEARN  ·  SHIP</text>
+  <circle cx="402" cy="73" r="4" fill="#EF4444" />
+  <circle cx="798" cy="73" r="4" fill="#34EACB">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+  <path d="M575 119H625" stroke="#FF0066" stroke-width="3" stroke-linecap="round" />
+</svg>

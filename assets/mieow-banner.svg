@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">Mieow cyber banner</title>
-  <desc id="description">A pink, purple, and cyan banner featuring the official Mieow cat logo beside the Mieow wordmark.</desc>
+  <desc id="description">A red and hot-pink Mieow banner with black, white, teal, and a restrained violet accent.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d946ef" />
-      <stop offset="0.48" stop-color="#7c3aed" />
-      <stop offset="1" stop-color="#06b6d4" />
+      <stop offset="0" stop-color="#EF4444" />
+      <stop offset="0.52" stop-color="#FF0066" />
+      <stop offset="0.86" stop-color="#FF0066" />
+      <stop offset="0.94" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#34EACB" />
     </linearGradient>
     <radialGradient id="logoPlate" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.38" />
@@ -14,8 +16,8 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fbcfe8" />
-      <stop offset="1" stop-color="#a5f3fc" />
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#34EACB" />
     </linearGradient>
     <filter id="logoGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur" />
@@ -27,14 +29,14 @@
       </feMerge>
     </filter>
     <filter id="textShadow" x="-20%" y="-30%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e1b4b" flood-opacity="0.45" />
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0D1117" flood-opacity="0.68" />
     </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="#0d1117" />
+  <rect width="1200" height="300" rx="24" fill="#0D1117" />
   <path d="M0 0H1200V246C1000 208 835 270 626 236C410 201 221 271 0 225Z" fill="url(#background)" />
-  <path d="M0 222C238 275 388 201 620 238C842 274 1010 213 1200 249V300H0Z" fill="#111827" fill-opacity="0.43" />
-  <path d="M0 240C221 285 415 225 614 255C832 289 1010 236 1200 267V300H0Z" fill="#0d1117" fill-opacity="0.56" />
+  <path d="M0 222C238 275 388 201 620 238C842 274 1010 213 1200 249V300H0Z" fill="#160A0F" fill-opacity="0.58" />
+  <path d="M0 240C221 285 415 225 614 255C832 289 1010 236 1200 267V300H0Z" fill="#0D1117" fill-opacity="0.78" />
 
   <g transform="translate(300 12)">
     <circle cx="130" cy="128" r="122" fill="url(#logoPlate)" />
@@ -44,12 +46,13 @@
 
   <g fill="#ffffff" filter="url(#logoGlow)">
     <circle class="spark spark-one" cx="557" cy="67" r="4" />
-    <circle class="spark spark-two" cx="926" cy="82" r="3" />
+    <circle class="spark spark-two" cx="926" cy="82" r="3" fill="#34EACB" />
     <path class="spark spark-two" d="M982 148L986 157L995 161L986 165L982 174L978 165L969 161L978 157Z" />
   </g>
 
   <g class="wordmark" filter="url(#textShadow)">
     <text x="748" y="126" text-anchor="middle" fill="#ffffff" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="76" font-style="italic" font-weight="700" letter-spacing="1">Mieow</text>
+    <rect x="521" y="141" width="454" height="41" rx="20.5" fill="#0D1117" fill-opacity="0.82" stroke="#34EACB" stroke-opacity="0.46" />
     <text x="748" y="169" text-anchor="middle" fill="#ffffff" fill-opacity="0.92" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="20" font-weight="600" letter-spacing="1.4">E-COMMERCE  ×  AI  ×  WEB PRODUCTS</text>
   </g>
 </svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Mieow section divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EF4444" stop-opacity="0" />
+      <stop offset="0.18" stop-color="#EF4444" />
+      <stop offset="0.76" stop-color="#FF0066" />
+      <stop offset="0.94" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#34EACB" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+  </defs>
+  <rect x="80" y="13" width="1040" height="2" rx="1" fill="url(#line)" opacity="0.35" filter="url(#glow)" />
+  <rect x="80" y="13" width="1040" height="1" rx="0.5" fill="url(#line)" />
+  <path d="M584 14L600 4L616 14L600 24Z" fill="#0D1117" stroke="#FF0066" stroke-width="2" />
+  <circle cx="600" cy="14" r="3.5" fill="#34EACB">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+</svg>
