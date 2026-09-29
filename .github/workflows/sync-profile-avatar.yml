@@ -1,6 +1,13 @@
 name: Sync README Avatar
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-profile-avatar.yml"
+      - "scripts/sync_github_avatar.py"
+      - "assets/khung/a176.png"
   workflow_dispatch:
   schedule:
     - cron: "23 */6 * * *"
