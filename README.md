@@ -28,11 +28,12 @@
 
 <img width="100%" src="./assets/mieow-divider.svg" alt="" />
 
-## `> whoami`
+<img width="100%" src="./assets/headings/about-me.svg" alt="Whoami — identity scan" />
 
-I'm **Mieow**, a third-year Information Technology student majoring in **E-Commerce**.
+> **Mieow // Product-minded builder**  
+> Third-year Information Technology student majoring in **E-Commerce**.
 
-I enjoy turning product ideas into working software, especially projects that combine commerce workflows, useful automation, and practical AI integration.
+I turn product ideas into working software—especially products combining **commerce workflows**, **useful automation**, and **practical AI integration**.
 
 ```text
 focus     product thinking · e-commerce · AI workflows
@@ -40,7 +41,7 @@ building  web products · automation tools · playful experiments
 style     curious · independent · ship-first
 ```
 
-## Tech constellation
+<img width="100%" src="./assets/headings/tech-stack-v2.svg" alt="Tech constellation — core systems" />
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,bun,nodejs,python,php&theme=dark&perline=8" alt="Core technology stack" />
@@ -49,12 +50,12 @@ style     curious · independent · ship-first
 <br />
 
 <div align="center">
-  <sub>Currently deepening: system planning · end-to-end delivery · AI-assisted product development</sub>
+  <sub><code>SYSTEM PLANNING</code> &nbsp;·&nbsp; <code>END-TO-END DELIVERY</code> &nbsp;·&nbsp; <code>AI-ASSISTED PRODUCTS</code></sub>
 </div>
 
 <img width="100%" src="./assets/mieow-divider.svg" alt="" />
 
-## Explore my projects
+<img width="100%" src="./assets/headings/projects-cv.svg" alt="Explore my projects — public archive" />
 
 <div align="center">
 
@@ -81,7 +82,7 @@ style     curious · independent · ship-first
 
 <img width="100%" src="./assets/mieow-divider.svg" alt="" />
 
-## GitHub pulse
+<img width="100%" src="./assets/headings/github-stats.svg" alt="GitHub pulse — live telemetry" />
 
 <div align="center">
   <img width="82%" src="./assets/mieow-github-live.svg" alt="Live GitHub contribution telemetry" />
@@ -92,25 +93,29 @@ style     curious · independent · ship-first
   <img width="48%" src="https://streak-stats.demolab.com?user=EmBeHocCode&hide_border=false&border_radius=12&background=135%2C0D1117%2C160A10&border=EF4444&stroke=8B5CF6&ring=FF0066&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=34EACB&sideLabels=FF0066&dates=94A3B8" alt="Mieow contribution streak" />
 </div>
 
-## Current quest
+<img width="100%" src="./assets/headings/current-focus.svg" alt="Current quest — active missions" />
 
-- Building graduation-oriented E-Commerce products.
-- Exploring AI features that solve real workflow problems.
-- Improving architecture, documentation, testing, and product delivery.
+- **COMMERCE //** Building graduation-oriented E-Commerce products.
+- **AI SYSTEMS //** Exploring AI features that solve real workflow problems.
+- **ENGINEERING //** Improving architecture, documentation, testing, and product delivery.
 
 <img width="100%" src="./assets/mieow-divider.svg" alt="" />
 
-## Find me in the digital garden
+<img width="100%" src="./assets/headings/thought.svg" alt="Digital garden — connect and discover" />
 
 <div align="center">
 
   **Open to learning, collaboration, and interesting product ideas.**
 
-  <a href="https://bio.mieowparadise.io.vn/">Portfolio</a>
-  ·
-  <a href="https://github.com/EmBeHocCode/EmBeHocCode/blob/main/CV.md">CV</a>
-  ·
-  <a href="https://www.facebook.com/hungng.0505/">Facebook</a>
+  <a href="https://bio.mieowparadise.io.vn/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-FF0066?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/EmBeHocCode/EmBeHocCode/blob/main/CV.md">
+    <img src="https://img.shields.io/badge/CV-EF4444?style=for-the-badge&logo=readme&logoColor=white" alt="CV" />
+  </a>
+  <a href="https://www.facebook.com/hungng.0505/">
+    <img src="https://img.shields.io/badge/FACEBOOK-34EACB?style=for-the-badge&logo=facebook&logoColor=0D1117" alt="Facebook" />
+  </a>
 
   <br /><br />
 
