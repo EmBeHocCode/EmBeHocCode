@@ -42,52 +42,30 @@ style     curious · independent · ship-first
   <sub>Currently deepening: system planning · end-to-end delivery · AI-assisted product development</sub>
 </div>
 
-## Featured creations
+## Explore my projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h3>🤖 Meow AI Bot</h3>
-      <p>AI chatbot and management dashboard designed around real workflows.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Product_Showcase-FF4ECD?style=flat-square" alt="Product showcase" />
-        <img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Gemini-7C3AED?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-      </p>
-      <a href="https://github.com/EmBeHocCode/The-Bot-Demo"><strong>Explore showcase →</strong></a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h3>🌌 Mieow Bio</h3>
-      <p>Interactive portfolio with cyber visuals, WebGL, and playful experiments.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Live-22D3EE?style=flat-square" alt="Live project" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0D1117" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Three.js-0D1117?style=flat-square&logo=threedotjs" alt="Three.js" />
-      </p>
-      <a href="https://github.com/EmBeHocCode/mieow-bio"><strong>Explore project →</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h3>🔎 SnapTrans</h3>
-      <p>Desktop OCR and translation utility built for fast everyday use.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Desktop_Tool-7C3AED?style=flat-square" alt="Desktop tool" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      </p>
-      <a href="https://github.com/EmBeHocCode/SnapTrans"><strong>Explore project →</strong></a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h3>📚 Mieow Truyện Tranh</h3>
-      <p>A comic-oriented web platform from the growing Mieow ecosystem.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Web_Project-FF4ECD?style=flat-square" alt="Web project" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-      </p>
-      <a href="https://github.com/EmBeHocCode/MieowTruyenTranh"><strong>Explore project →</strong></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  From E-Commerce systems and AI experiments to games, utilities, and visual web projects.
+
+  <br /><br />
+
+  <a href="https://github.com/EmBeHocCode?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE_ALL_PUBLIC_REPOSITORIES-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore all public repositories" />
+  </a>
+
+  <br /><br />
+
+  <img src="https://img.shields.io/badge/E--Commerce-FF4ECD?style=flat-square" alt="E-Commerce projects" />
+  <img src="https://img.shields.io/badge/AI_Experiments-7C3AED?style=flat-square" alt="AI experiments" />
+  <img src="https://img.shields.io/badge/Web_Products-22D3EE?style=flat-square&logoColor=0D1117" alt="Web products" />
+  <img src="https://img.shields.io/badge/Games_%26_Tools-F472B6?style=flat-square" alt="Games and tools" />
+
+  <br />
+
+  <sub>GitHub automatically shows visitors only the repositories that are public.</sub>
+
+</div>
 
 ## GitHub pulse
 
