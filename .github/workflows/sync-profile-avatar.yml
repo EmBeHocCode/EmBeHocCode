@@ -1,0 +1,50 @@
+name: Sync README Avatar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-readme-avatar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image dependency
+        run: python -m pip install Pillow==11.3.0
+
+      - name: Build framed avatar from GitHub profile
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/sync_github_avatar.py
+
+      - name: Commit avatar only when it changed
+        shell: bash
+        run: |
+          git add assets/avatar/mieow-avatar-framed.png
+
+          if git diff --cached --quiet; then
+            echo "GitHub avatar has not changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync README avatar from GitHub profile"
+          git pull --rebase origin main
+          git push origin HEAD:main
