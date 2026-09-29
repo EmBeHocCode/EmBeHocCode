@@ -11,6 +11,12 @@
       <stop offset="0" stop-color="#0D1117" stop-opacity="0.68" />
       <stop offset="1" stop-color="#180A11" stop-opacity="0.9" />
     </linearGradient>
+    <linearGradient id="edge" x1="9" y1="78" x2="282" y2="217" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EF4444" />
+      <stop offset="0.48" stop-color="#FF0066" />
+      <stop offset="0.78" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#34EACB" />
+    </linearGradient>
     <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
       <feGaussianBlur stdDeviation="2.2" />
     </filter>
@@ -18,11 +24,15 @@
       .flow { animation: flow 4s linear infinite; }
       .pulse { animation: pulse 2.4s ease-in-out infinite; }
       .scan { animation: scan 3.2s ease-in-out infinite; }
+      .edge-flow { animation: edge-flow 2.6s linear infinite; }
+      .edge-runner { animation: edge-runner 4.4s linear infinite; }
       @keyframes flow { to { stroke-dashoffset: -72; } }
       @keyframes pulse { 0%, 100% { opacity: .38; } 50% { opacity: 1; } }
       @keyframes scan { 0%, 100% { transform: translateX(0); opacity: .25; } 50% { transform: translateX(92px); opacity: .8; } }
+      @keyframes edge-flow { to { stroke-dashoffset: -92; } }
+      @keyframes edge-runner { to { stroke-dashoffset: -730; } }
       @media (prefers-reduced-motion: reduce) {
-        .flow, .pulse, .scan { animation: none; }
+        .flow, .pulse, .scan, .edge-flow, .edge-runner { animation: none; }
       }
     </style>
   </defs>
@@ -30,7 +40,10 @@
   <path d="M8 144H354" stroke="url(#rail)" stroke-width="5" opacity="0.17" filter="url(#glow)" />
   <path class="flow" d="M8 144H354" stroke="url(#rail)" stroke-width="1.5" stroke-dasharray="8 10" />
 
-  <path d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="url(#panel)" stroke="#EF4444" stroke-opacity="0.8" stroke-width="1.5" />
+  <path d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="url(#panel)" stroke="#EF4444" stroke-opacity="0.42" stroke-width="1.5" />
+  <path d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="none" stroke="url(#edge)" stroke-width="5" stroke-opacity="0.16" filter="url(#glow)" />
+  <path class="edge-flow" d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="none" stroke="url(#edge)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 9 3 9" />
+  <path class="edge-runner" d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="none" stroke="#F8FAFC" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="12 718" filter="url(#glow)" />
   <path d="M25 78H150" stroke="#FF0066" stroke-width="4" />
   <path d="M9 111V95L25 78H41M282 172V188L253 217H237" fill="none" stroke="#34EACB" stroke-width="2" />
   <path d="M34 197H225" stroke="#8B5CF6" stroke-opacity="0.42" stroke-width="1" />
