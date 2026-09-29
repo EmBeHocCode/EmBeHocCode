@@ -2,6 +2,12 @@
 
   <img width="100%" src="./assets/mieow-banner.svg" alt="Mieow cyber banner with the official cat logo" />
 
+  <br />
+
+  <img width="170" height="170" src="./assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
+
+  <br />
+
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=F472B6&center=true&vCenter=true&width=650&lines=E-Commerce+student;Building+AI-assisted+products;Learning+by+shipping+real+projects" alt="Typing introduction" />
 
   <br />
