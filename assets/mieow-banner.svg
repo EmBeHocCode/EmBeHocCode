@@ -1,15 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">Mieow cyber banner</title>
-  <desc id="description">A red and hot-pink Mieow banner with black, white, teal, and a restrained violet accent.</desc>
+  <desc id="description">An animated Mieow cyber command banner with technical wings, moving data rails, scanning light, and online status indicators.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#EF4444" />
-      <stop offset="0.52" stop-color="#FF0066" />
-      <stop offset="0.86" stop-color="#FF0066" />
-      <stop offset="0.94" stop-color="#8B5CF6" />
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B12" />
+      <stop offset="0.5" stop-color="#11111D" />
+      <stop offset="1" stop-color="#06090F" />
+    </linearGradient>
+    <linearGradient id="hotRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EF4444" stop-opacity="0" />
+      <stop offset="0.42" stop-color="#EF4444" />
+      <stop offset="0.7" stop-color="#FF0066" />
       <stop offset="1" stop-color="#34EACB" />
     </linearGradient>
+    <linearGradient id="wingFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EF4444" stop-opacity="0.28" />
+      <stop offset="0.55" stop-color="#FF0066" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34EACB" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#34EACB" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#34EACB" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#34EACB" stroke-opacity="0.08" stroke-width="1" />
+      <circle cx="0" cy="0" r="1.3" fill="#FF0066" fill-opacity="0.18" />
+    </pattern>
     <radialGradient id="logoPlate" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.38" />
       <stop offset="0.7" stop-color="#f8fafc" stop-opacity="0.16" />
@@ -31,12 +49,69 @@
     <filter id="textShadow" x="-20%" y="-30%" width="140%" height="160%">
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0D1117" flood-opacity="0.68" />
     </filter>
+    <filter id="neonGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="bannerClip"><rect width="1200" height="300" rx="24" /></clipPath>
+    <style>
+      .orbit { transform-origin: 130px 128px; animation: orbit-spin 14s linear infinite; }
+      .logo { transform-origin: 130px 128px; animation: logo-float 4.5s ease-in-out infinite; }
+      .data-rail { animation: data-flow 2.8s linear infinite; }
+      .data-rail.slow { animation-duration: 4.8s; animation-direction: reverse; }
+      .scan-beam { animation: scan-pass 5.5s ease-in-out infinite; }
+      .status-dot, .spark { animation: signal-pulse 2s ease-in-out infinite; }
+      .spark-two { animation-delay: -1s; }
+      .wing-core { animation: wing-breathe 3.6s ease-in-out infinite; }
+      .wordmark { animation: wordmark-glow 4s ease-in-out infinite; }
+      @keyframes orbit-spin { to { transform: rotate(360deg); } }
+      @keyframes logo-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      @keyframes data-flow { to { stroke-dashoffset: -88; } }
+      @keyframes scan-pass { 0%, 8% { transform: translateX(-280px); opacity: 0; } 18% { opacity: 1; } 72% { opacity: .9; } 88%, 100% { transform: translateX(1450px); opacity: 0; } }
+      @keyframes signal-pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes wing-breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+      @keyframes wordmark-glow { 0%, 100% { opacity: .94; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .orbit, .logo, .data-rail, .scan-beam, .status-dot, .spark, .wing-core, .wordmark { animation: none !important; }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="#0D1117" />
-  <path d="M0 0H1200V246C1000 208 835 270 626 236C410 201 221 271 0 225Z" fill="url(#background)" />
-  <path d="M0 222C238 275 388 201 620 238C842 274 1010 213 1200 249V300H0Z" fill="#160A0F" fill-opacity="0.58" />
-  <path d="M0 240C221 285 415 225 614 255C832 289 1010 236 1200 267V300H0Z" fill="#0D1117" fill-opacity="0.78" />
+  <g clip-path="url(#bannerClip)">
+    <rect width="1200" height="300" rx="24" fill="url(#background)" />
+    <rect width="1200" height="300" fill="url(#grid)" />
+    <path d="M0 0H370L252 150L370 300H0Z" fill="url(#wingFill)" />
+    <path d="M1200 0H1030L916 150L1030 300H1200Z" fill="url(#wingFill)" opacity="0.65" />
+    <path d="M0 246L235 210L510 250L750 222L1015 252L1200 226V300H0Z" fill="#EF4444" fill-opacity="0.05" />
+    <rect class="scan-beam" x="0" y="0" width="220" height="300" fill="url(#scan)" />
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path class="wing-core" d="M24 74H112L148 108H256L286 138" stroke="#EF4444" stroke-width="2" />
+      <path class="data-rail" d="M24 88H104L140 122H250L278 150" stroke="url(#hotRail)" stroke-width="3" stroke-dasharray="5 11" />
+      <path class="data-rail slow" d="M24 226H112L148 192H256L286 162" stroke="#34EACB" stroke-opacity="0.72" stroke-width="2" stroke-dasharray="2 13" />
+      <path class="wing-core" d="M1176 74H1088L1052 108H944L914 138" stroke="#FF0066" stroke-width="2" />
+      <path class="data-rail" d="M1176 88H1096L1060 122H950L922 150" stroke="url(#hotRail)" stroke-width="3" stroke-dasharray="5 11" />
+      <path class="data-rail slow" d="M1176 226H1088L1052 192H944L914 162" stroke="#34EACB" stroke-opacity="0.72" stroke-width="2" stroke-dasharray="2 13" />
+      <path d="M18 42V20H40M1160 20H1182V42M18 258V280H40M1160 280H1182V258" stroke="#34EACB" stroke-width="2" stroke-opacity="0.8" />
+      <path d="M54 54H184L204 74H274" stroke="#8B5CF6" stroke-opacity="0.38" />
+      <path d="M1146 246H1016L996 226H926" stroke="#8B5CF6" stroke-opacity="0.38" />
+    </g>
+
+    <g font-family="Consolas, SFMono-Regular, monospace" font-size="11" letter-spacing="1.5">
+      <text x="42" y="39" fill="#F8FAFC" fill-opacity="0.72">MIEOW // PROFILE SYSTEM</text>
+      <circle class="status-dot" cx="1046" cy="35" r="4" fill="#34EACB" filter="url(#neonGlow)" />
+      <text x="1060" y="39" fill="#34EACB">STATUS: ONLINE</text>
+      <text x="42" y="270" fill="#EF4444">SYS.24 // BUILD MODE</text>
+      <text x="1007" y="270" fill="#F8FAFC" fill-opacity="0.6">SIGNAL // 100%</text>
+    </g>
+
+    <g fill="#34EACB" filter="url(#neonGlow)">
+      <circle class="status-dot" cx="148" cy="108" r="3" />
+      <circle class="status-dot" cx="1052" cy="108" r="3" />
+      <rect class="status-dot" x="81" y="221" width="22" height="3" rx="1.5" />
+      <rect class="status-dot" x="1097" y="221" width="22" height="3" rx="1.5" />
+    </g>
+  </g>
 
   <g transform="translate(300 12)">
     <circle cx="130" cy="128" r="122" fill="url(#logoPlate)" />
