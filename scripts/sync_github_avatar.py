@@ -21,6 +21,8 @@ OUTPUT_PATH = ROOT / "assets" / "avatar" / "mieow-avatar-framed.png"
 SOURCE_HASH_PATH = ROOT / "assets" / "avatar" / "github-avatar.sha256"
 CANVAS_SIZE = 288
 AVATAR_SIZE = 216
+CANVAS_BACKGROUND = (13, 17, 23, 255)
+RENDER_VERSION = b"dark-canvas-v1"
 HTTP_TIMEOUT_SECONDS = 30
 
 
@@ -73,15 +75,22 @@ def avatar_layer(source: Image.Image) -> Image.Image:
     )
     avatar.putalpha(mask)
 
-    layer = Image.new("RGBA", (CANVAS_SIZE, CANVAS_SIZE), (0, 0, 0, 0))
+    # GitHub applies its own dark fill behind transparent README images. That
+    # fill is slightly lighter than the profile background and exposes the
+    # rectangular image box, so render the canvas in the profile's #0D1117.
+    layer = Image.new("RGBA", (CANVAS_SIZE, CANVAS_SIZE), CANVAS_BACKGROUND)
     offset = ((CANVAS_SIZE - AVATAR_SIZE) // 2,) * 2
     layer.alpha_composite(avatar, offset)
     return layer
 
 
 def source_digest(source: Image.Image) -> str:
-    identity = f"{source.mode}:{source.width}x{source.height}:".encode()
-    return hashlib.sha256(identity + source.tobytes()).hexdigest()
+    digest = hashlib.sha256()
+    digest.update(RENDER_VERSION)
+    digest.update(f"{source.mode}:{source.width}x{source.height}:".encode())
+    digest.update(source.tobytes())
+    digest.update(FRAME_PATH.read_bytes())
+    return digest.hexdigest()
 
 
 def build_animation(source: Image.Image, destination: Path) -> None:
