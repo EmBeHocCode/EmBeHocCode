@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="288" viewBox="0 0 360 288" role="img" aria-labelledby="title desc">
+  <title id="title">Build mode HUD</title>
+  <desc id="desc">A red and pink cyber HUD showing that build mode is active.</desc>
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EF4444" stop-opacity="0" />
+      <stop offset="0.35" stop-color="#EF4444" />
+      <stop offset="1" stop-color="#FF0066" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117" stop-opacity="0.68" />
+      <stop offset="1" stop-color="#180A11" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+    <style>
+      .flow { animation: flow 4s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .scan { animation: scan 3.2s ease-in-out infinite; }
+      @keyframes flow { to { stroke-dashoffset: -72; } }
+      @keyframes pulse { 0%, 100% { opacity: .38; } 50% { opacity: 1; } }
+      @keyframes scan { 0%, 100% { transform: translateX(0); opacity: .25; } 50% { transform: translateX(92px); opacity: .8; } }
+      @media (prefers-reduced-motion: reduce) {
+        .flow, .pulse, .scan { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <path d="M8 144H354" stroke="url(#rail)" stroke-width="5" opacity="0.17" filter="url(#glow)" />
+  <path class="flow" d="M8 144H354" stroke="url(#rail)" stroke-width="1.5" stroke-dasharray="8 10" />
+
+  <path d="M25 78H244L282 116V188L253 217H25L9 201V95Z" fill="url(#panel)" stroke="#EF4444" stroke-opacity="0.8" stroke-width="1.5" />
+  <path d="M25 78H150" stroke="#FF0066" stroke-width="4" />
+  <path d="M9 111V95L25 78H41M282 172V188L253 217H237" fill="none" stroke="#34EACB" stroke-width="2" />
+  <path d="M34 197H225" stroke="#8B5CF6" stroke-opacity="0.42" stroke-width="1" />
+  <rect class="scan" x="34" y="196" width="58" height="2" rx="1" fill="#FF0066" />
+
+  <text x="39" y="120" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600" letter-spacing="3">BUILD MODE</text>
+  <text x="39" y="159" fill="#FF0066" font-family="JetBrains Mono, Consolas, monospace" font-size="29" font-weight="800" letter-spacing="2">ACTIVE</text>
+  <text x="39" y="184" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="11" letter-spacing="1.5">PROFILE LINK // 01</text>
+
+  <circle class="pulse" cx="306" cy="144" r="7" fill="#34EACB" filter="url(#glow)" />
+  <circle cx="306" cy="144" r="3.5" fill="#34EACB" />
+  <path d="M319 135L328 144L319 153" fill="none" stroke="#FF0066" stroke-width="2" />
+  <path d="M337 137V151" stroke="#F8FAFC" stroke-opacity="0.68" />
+</svg>

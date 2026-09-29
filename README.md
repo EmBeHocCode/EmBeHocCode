@@ -4,7 +4,9 @@
 
   <br />
 
-  <img width="170" height="170" src="./assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
+  <img width="22%" align="middle" src="./assets/mieow-hud-left.svg" alt="Build mode active" />
+  <img width="170" height="170" align="middle" src="./assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
+  <img width="22%" align="middle" src="./assets/mieow-hud-right.svg" alt="Focus: AI and commerce" />
 
   <br />
 
