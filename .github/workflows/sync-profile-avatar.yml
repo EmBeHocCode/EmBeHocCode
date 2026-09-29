@@ -10,7 +10,7 @@ on:
       - "assets/khung/a176.png"
   workflow_dispatch:
   schedule:
-    - cron: "23 */6 * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
