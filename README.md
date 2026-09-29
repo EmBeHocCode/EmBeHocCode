@@ -2,13 +2,6 @@
 
   <img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-banner.svg" alt="Mieow cyber banner with the official cat logo" />
 
-  <a href="https://github.com/EmBeHocCode/EmBeHocCode/actions/workflows/switch-profile-theme.yml">
-    <img src="https://img.shields.io/badge/SWITCH_PROFILE_THEME-FF0066?style=for-the-badge&logo=githubactions&logoColor=white" alt="Switch profile theme" />
-  </a>
-  <a href="https://github.com/EmBeHocCode/EmBeHocCode/tree/main/profile-themes">
-    <img src="https://img.shields.io/badge/PREVIEW_4_THEMES-34EACB?style=for-the-badge&logo=readme&logoColor=0D1117" alt="Preview profile themes" />
-  </a>
-
   <br />
 
   <img width="22%" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-hud-left.svg" alt="Build mode active" />
