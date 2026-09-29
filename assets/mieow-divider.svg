@@ -1,20 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Mieow section divider">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="img" aria-label="Animated Mieow section divider">
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#EF4444" stop-opacity="0" />
       <stop offset="0.18" stop-color="#EF4444" />
-      <stop offset="0.76" stop-color="#FF0066" />
-      <stop offset="0.94" stop-color="#8B5CF6" />
+      <stop offset="0.58" stop-color="#FF0066" />
+      <stop offset="0.88" stop-color="#8B5CF6" />
       <stop offset="1" stop-color="#34EACB" stop-opacity="0" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-300%" width="140%" height="700%">
-      <feGaussianBlur stdDeviation="2.2" />
+    <filter id="glow" x="-30%" y="-500%" width="160%" height="1100%">
+      <feGaussianBlur stdDeviation="2.6" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <style>
+      .flow { animation: flow 3.4s linear infinite; }
+      .runner-a { animation: runner-a 4.6s ease-in-out infinite; }
+      .runner-b { animation: runner-b 4.6s ease-in-out infinite; }
+      .core { transform-origin: 600px 17px; animation: core 2.2s ease-in-out infinite; }
+      .tick { animation: blink 1.8s steps(2, end) infinite; }
+      .tick.alt { animation-delay: -.9s; }
+      @keyframes flow { to { stroke-dashoffset: -80; } }
+      @keyframes runner-a { 0%, 8% { transform: translateX(0); opacity: 0; } 18%, 78% { opacity: 1; } 92%, 100% { transform: translateX(1030px); opacity: 0; } }
+      @keyframes runner-b { 0%, 8% { transform: translateX(0); opacity: 0; } 18%, 78% { opacity: 1; } 92%, 100% { transform: translateX(-1030px); opacity: 0; } }
+      @keyframes core { 0%, 100% { transform: scale(.82); opacity: .55; } 50% { transform: scale(1.15); opacity: 1; } }
+      @keyframes blink { 0%, 44% { opacity: .25; } 45%, 100% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .runner-a, .runner-b, .core, .tick { animation: none !important; } }
+    </style>
   </defs>
-  <rect x="80" y="13" width="1040" height="2" rx="1" fill="url(#line)" opacity="0.35" filter="url(#glow)" />
-  <rect x="80" y="13" width="1040" height="1" rx="0.5" fill="url(#line)" />
-  <path d="M584 14L600 4L616 14L600 24Z" fill="#0D1117" stroke="#FF0066" stroke-width="2" />
-  <circle cx="600" cy="14" r="3.5" fill="#34EACB">
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite" />
-  </circle>
+  <path d="M78 17H1122" stroke="url(#line)" stroke-width="6" opacity="0.13" filter="url(#glow)" />
+  <path d="M78 17H1122" stroke="url(#line)" stroke-width="1.5" />
+  <path class="flow" d="M92 12H424M776 22H1108" fill="none" stroke="#34EACB" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="3 13" />
+  <g fill="#EF4444" filter="url(#glow)"><circle class="runner-a" cx="82" cy="17" r="3" /></g>
+  <g fill="#34EACB" filter="url(#glow)"><circle class="runner-b" cx="1118" cy="17" r="3" /></g>
+  <path d="M580 17L600 4L620 17L600 30Z" fill="#0D1117" stroke="#FF0066" stroke-width="1.5" />
+  <path class="core" d="M594 17L600 11L606 17L600 23Z" fill="#34EACB" filter="url(#glow)" />
+  <g fill="#F8FAFC"><rect class="tick" x="65" y="14" width="5" height="6" rx="1" /><rect class="tick alt" x="1130" y="14" width="5" height="6" rx="1" /></g>
 </svg>

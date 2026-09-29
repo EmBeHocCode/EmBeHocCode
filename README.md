@@ -63,7 +63,7 @@ style     curious · independent · ship-first
   <br /><br />
 
   <a href="https://github.com/EmBeHocCode?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_ALL_PUBLIC_REPOSITORIES-FF0066?style=for-the-badge&logo=github&logoColor=white" alt="Explore all public repositories" />
+    <img width="520" src="./assets/mieow-project-cta.svg" alt="Explore all public repositories" />
   </a>
 
   <br /><br />
@@ -84,6 +84,8 @@ style     curious · independent · ship-first
 ## GitHub pulse
 
 <div align="center">
+  <img width="82%" src="./assets/mieow-github-live.svg" alt="Live GitHub contribution telemetry" />
+  <br />
   <img width="82%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=dark&title_color=FF0066&text_color=F8FAFC&bg_color=0D1117&border_color=EF4444&icon_color=34EACB&chart_color=FF0066" alt="Mieow GitHub activity summary" />
   <br />
   <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=dark&title_color=FF0066&text_color=F8FAFC&bg_color=0D1117&border_color=EF4444&icon_color=34EACB&chart_color=FF0066" alt="Repositories by language" />

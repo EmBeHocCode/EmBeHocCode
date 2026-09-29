@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="46" viewBox="0 0 960 46" role="img" aria-label="Live GitHub contribution telemetry">
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#EF4444" stop-opacity="0"/><stop offset=".22" stop-color="#EF4444"/><stop offset=".62" stop-color="#FF0066"/><stop offset=".88" stop-color="#8B5CF6"/><stop offset="1" stop-color="#34EACB" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-50%" y="-250%" width="200%" height="600%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .beat { animation: beat 2.4s linear infinite; }.dot { animation: pulse 1.3s ease-in-out infinite; }.live { animation: blink 1.5s steps(2, end) infinite; }
+      @keyframes beat { to { stroke-dashoffset: -120; } } @keyframes pulse { 0%, 100% { opacity: .25; } 50% { opacity: 1; } } @keyframes blink { 0%, 45% { opacity: .35; } 46%, 100% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .beat, .dot, .live { animation: none !important; } }
+    </style>
+  </defs>
+  <path d="M24 23H300L315 23L325 8L339 38L352 15L365 23H660" fill="none" stroke="url(#signal)" stroke-width="1.6" opacity=".34" filter="url(#glow)"/>
+  <path class="beat" d="M24 23H300L315 23L325 8L339 38L352 15L365 23H660" fill="none" stroke="url(#signal)" stroke-width="2" stroke-dasharray="10 9"/>
+  <circle class="dot" cx="22" cy="23" r="3" fill="#EF4444" filter="url(#glow)"/><circle class="live" cx="700" cy="23" r="4" fill="#34EACB" filter="url(#glow)"/>
+  <text x="714" y="27" fill="#34EACB" font-family="JetBrains Mono, Consolas, monospace" font-size="11" letter-spacing="1.7">LIVE CONTRIBUTION TELEMETRY</text>
+</svg>
