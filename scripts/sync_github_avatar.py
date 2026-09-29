@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 USERNAME = "EmBeHocCode"
 FRAME_PATH = ROOT / "assets" / "khung" / "a176.png"
 OUTPUT_PATH = ROOT / "assets" / "avatar" / "mieow-avatar-framed.png"
+SOURCE_HASH_PATH = ROOT / "assets" / "avatar" / "github-avatar.sha256"
 CANVAS_SIZE = 288
 AVATAR_SIZE = 216
 HTTP_TIMEOUT_SECONDS = 30
@@ -78,8 +79,13 @@ def avatar_layer(source: Image.Image) -> Image.Image:
     return layer
 
 
-def build_animation(destination: Path) -> None:
-    base = avatar_layer(current_avatar())
+def source_digest(source: Image.Image) -> str:
+    identity = f"{source.mode}:{source.width}x{source.height}:".encode()
+    return hashlib.sha256(identity + source.tobytes()).hexdigest()
+
+
+def build_animation(source: Image.Image, destination: Path) -> None:
+    base = avatar_layer(source)
     frames: list[Image.Image] = []
     durations: list[float] = []
 
@@ -107,12 +113,18 @@ def build_animation(destination: Path) -> None:
     )
 
 
-def digest(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    source = current_avatar()
+    current_source_digest = source_digest(source)
+
+    if (
+        SOURCE_HASH_PATH.exists()
+        and SOURCE_HASH_PATH.read_text(encoding="utf-8").strip()
+        == current_source_digest
+    ):
+        print("GitHub avatar pixels are unchanged; no file update needed.")
+        return
 
     with tempfile.NamedTemporaryFile(
         dir=OUTPUT_PATH.parent,
@@ -123,13 +135,13 @@ def main() -> None:
         temporary_path = Path(temporary_file.name)
 
     try:
-        build_animation(temporary_path)
-
-        if OUTPUT_PATH.exists() and digest(OUTPUT_PATH) == digest(temporary_path):
-            print("GitHub avatar is unchanged; no file update needed.")
-            return
+        build_animation(source, temporary_path)
 
         temporary_path.replace(OUTPUT_PATH)
+        SOURCE_HASH_PATH.write_text(
+            f"{current_source_digest}\n",
+            encoding="utf-8",
+        )
         with Image.open(OUTPUT_PATH) as result:
             print(
                 f"Updated {OUTPUT_PATH.relative_to(ROOT)}: "

@@ -43,7 +43,9 @@ jobs:
       - name: Commit avatar only when it changed
         shell: bash
         run: |
-          git add assets/avatar/mieow-avatar-framed.png
+          git add \
+            assets/avatar/mieow-avatar-framed.png \
+            assets/avatar/github-avatar.sha256
 
           if git diff --cached --quiet; then
             echo "GitHub avatar has not changed."
