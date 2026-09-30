@@ -32,9 +32,7 @@
 
 ---
 
-<p align="center">
-  <img src="./assets/headings/about-me.svg" width="82%" alt="About Me" />
-</p>
+
 
 - 🎓 I am a 3rd-year IT student majoring in **E-Commerce**.
 - 🧠 My strongest point is using AI to accelerate execution while keeping strategy and planning human-led.
@@ -46,9 +44,7 @@
 
 ---
 
-<p align="center">
-  <img src="./assets/headings/current-focus.svg" width="82%" alt="Current Focus" />
-</p>
+
 
 - 🚧 Building graduation-oriented commerce projects with AI integration.
 - 🎯 Future path: **E-Commerce specialist with strong AI execution**, not a pure developer track.
