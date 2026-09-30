@@ -113,7 +113,7 @@ style     curious · independent · ship-first
   <a href="https://github.com/EmBeHocCode/EmBeHocCode/blob/main/CV.md">
     <img src="https://img.shields.io/badge/CV-EF4444?style=for-the-badge&logo=readme&logoColor=white" alt="CV" />
   </a>
-  <a href="https://www.facebook.com/hungng.0505/">
+  <a href="https://www.facebook.com/zmeow0505/">
     <img src="https://img.shields.io/badge/FACEBOOK-34EACB?style=for-the-badge&logo=facebook&logoColor=0D1117" alt="Facebook" />
   </a>
 
