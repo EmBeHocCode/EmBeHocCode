@@ -1,139 +1,126 @@
-<h1 align="center">Hi, I'm Mieow EMC 👋</h1>
+<div align="center">
 
-<p align="center">
-  <img src="./assets/neon-title-v2.svg" width="94%" alt="Neon banner" />
-</p>
+  <img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-banner.svg" alt="Mieow cyber banner with the official cat logo" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=F472B6&center=true&vCenter=true&width=980&height=72&lines=Year+3+IT+Student+(E-Commerce+Major);Building+Commerce+Projects+with+AI;Future+Path:+E-Commerce+%2B+AI+Product+Execution;Chill+Workflow+%2B+Clear+Thinking+%2B+Real+Output" alt="Typing subtitle" />
-</p>
+  <br />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=EmBeHocCode&label=Profile+Views&color=0e75b6&style=flat" alt="Profile views"/>
-  <img src="https://img.shields.io/badge/Style-Cute%20Neon-f472b6" alt="Style"/>
-  <img src="https://img.shields.io/badge/Work-Chill%20Remote-f9a8d4" alt="Work style"/>
-  <img src="https://img.shields.io/badge/Status-AI%20Commerce%20Builder-c084fc" alt="Status"/>
-</p>
+  <img width="22%" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-hud-left.svg" alt="Build mode active" />
+  <img width="170" height="170" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/avatar/mieow-avatar-framed.png" alt="Animated Mieow avatar with a layered cyber frame" />
+  <img width="22%" align="middle" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-hud-right.svg" alt="Focus: AI and commerce" />
 
-<p align="center">
-  <a href="https://www.facebook.com/hungng.0505/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white" alt="Facebook"/>
-  </a>
-  <a href="https://discord.com/users/embi_dev">
-    <img src="https://img.shields.io/badge/Discord-embi_dev-5865F2?logo=discord&logoColor=white" alt="Discord"/>
-  </a>
+  <br />
+
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=FF0066&center=true&vCenter=true&width=650&lines=E-Commerce+student;Building+AI-assisted+products;Learning+by+shipping+real+projects" alt="Typing introduction" />
+
+  <br />
+
   <a href="https://bio.mieowparadise.io.vn/">
-    <img src="https://img.shields.io/badge/Website-mieowparadise.io.vn-0A66C2?logo=google-chrome&logoColor=white" alt="Website"/>
+    <img src="https://img.shields.io/badge/Portfolio-FF0066?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="mailto:hung.d23c01a0287@ktkt.edu.vn">
-    <img src="https://img.shields.io/badge/Email-hung.d23c01a0287%40ktkt.edu.vn-EA4335?logo=gmail&logoColor=white" alt="Email"/>
+  <a href="https://github.com/EmBeHocCode/EmBeHocCode/blob/main/CV.md">
+    <img src="https://img.shields.io/badge/View_CV-EF4444?style=for-the-badge&logo=readme&logoColor=white" alt="CV" />
   </a>
-</p>
+  <a href="https://github.com/EmBeHocCode">
+    <img src="https://img.shields.io/badge/GitHub-34EACB?style=for-the-badge&logo=github&logoColor=0D1117" alt="GitHub" />
+  </a>
 
----
+</div>
 
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/about-me.svg" alt="Whoami — identity scan" />
 
-- 🎓 I am a 3rd-year IT student majoring in **E-Commerce**.
-- 🧠 My strongest point is using AI to accelerate execution while keeping strategy and planning human-led.
-- 🛋️ Work vibe: chill, flexible, and remote-friendly.
-- 🌐 I enjoy building web products, mini games, and useful/fun tools.
-- 🐾 Alias: **Em Meow** / **EmBeby**.
+> **Mieow // Product-minded builder**  
+> Third-year Information Technology student majoring in **E-Commerce**.
 
-> I build software that solves real problems, not just writes code.
+I turn product ideas into working software—especially products combining **commerce workflows**, **useful automation**, and **practical AI integration**.
 
----
+```text
+focus     product thinking · e-commerce · AI workflows
+building  web products · automation tools · playful experiments
+style     curious · independent · ship-first
+```
 
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/tech-stack-v2.svg" alt="Tech constellation — core systems" />
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,bun,nodejs,python,php&theme=dark&perline=8" alt="Core technology stack" />
+</div>
 
-- 🚧 Building graduation-oriented commerce projects with AI integration.
-- 🎯 Future path: **E-Commerce specialist with strong AI execution**, not a pure developer track.
-- 🧩 Improving product thinking, system planning, and end-to-end delivery.
+<br />
 
----
+<div align="center">
+  <sub><code>SYSTEM PLANNING</code> &nbsp;·&nbsp; <code>END-TO-END DELIVERY</code> &nbsp;·&nbsp; <code>AI-ASSISTED PRODUCTS</code></sub>
+</div>
 
-<p align="center">
-  <img src="./assets/headings/learning-roadmap.svg" width="82%" alt="Learning Roadmap" />
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-<p align="center">
-  <img src="./assets/roadmap-diagram.svg" width="100%" alt="Commerce and AI roadmap diagram" />
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/projects-cv.svg" alt="Explore my projects — public archive" />
 
----
+<div align="center">
 
-<p align="center">
-  <img src="./assets/headings/tech-stack-v2.svg" width="82%" alt="Tech Stack" />
-</p>
+  From E-Commerce systems and AI experiments to games, utilities, and visual web projects.
 
-**Core toolkit (for commerce projects)**
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"/>
-</p>
+  <br /><br />
 
-**Project stack (current direction)**
+  <a href="https://github.com/EmBeHocCode?tab=repositories">
+    <img width="520" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-project-cta.svg" alt="Explore all public repositories" />
+  </a>
 
-| Layer | Tools |
-|---|---|
-| Framework | Next.js 16 (App Router) |
-| UI | React 19, TailwindCSS 4 |
-| Components | Radix UI, shadcn/ui, Lucide Icons |
-| Data Fetching | TanStack Query v5 |
-| Charts | Recharts |
-| Forms | React Hook Form + Zod |
+  <br /><br />
 
-**Background (learned before)**
-<p>
-  <img src="https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white" alt="C Sharp"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white" alt="C Plus Plus"/>
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white" alt="Kotlin"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" alt="PHP"/>
-</p>
+  <img src="https://img.shields.io/badge/E--Commerce-EF4444?style=flat-square" alt="E-Commerce projects" />
+  <img src="https://img.shields.io/badge/AI_Experiments-FF0066?style=flat-square" alt="AI experiments" />
+  <img src="https://img.shields.io/badge/Web_Products-34EACB?style=flat-square&logoColor=0D1117" alt="Web products" />
+  <img src="https://img.shields.io/badge/Games_%26_Tools-8B5CF6?style=flat-square" alt="Games and tools" />
 
----
+  <br />
 
-<p align="center">
-  <img src="./assets/headings/github-stats.svg" width="82%" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img height="170" src="./profile-summary-card-output/dracula/3-stats.svg" alt="GitHub stats"/>
-  <img height="170" src="./profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Top languages"/>
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile details"/>
-</p>
+  <sub>GitHub automatically shows visitors only the repositories that are public.</sub>
 
----
+</div>
 
-<p align="center">
-  <img src="./assets/headings/projects-cv.svg" width="82%" alt="Projects and CV" />
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
 
-### Featured Projects
-- [mieow-bio](https://github.com/EmBeHocCode/mieow-bio): personal bio / profile web project with a clean identity-focused presentation.
-- [The-Bot-Demo](https://github.com/EmBeHocCode/The-Bot-Demo): an in-progress commerce-focused project with AI integration.
-- [MieowTruyenTranh](https://github.com/EmBeHocCode/MieowTruyenTranh): a comic-themed web project in the Mieow ecosystem.
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/github-stats.svg" alt="GitHub pulse — live telemetry" />
 
-More public repos are available on my GitHub profile, but these are the main ones I currently want to highlight.
+<div align="center">
+  <img width="82%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-github-live.svg" alt="Live GitHub contribution telemetry" />
+  <br />
+  <img width="82%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmBeHocCode&theme=dark&title_color=FF0066&text_color=F8FAFC&bg_color=0D1117&border_color=EF4444&icon_color=34EACB&chart_color=FF0066" alt="Mieow GitHub activity summary" />
+  <br />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmBeHocCode&theme=dark&title_color=FF0066&text_color=F8FAFC&bg_color=0D1117&border_color=EF4444&icon_color=34EACB&chart_color=FF0066" alt="Repositories by language" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=EmBeHocCode&hide_border=false&border_radius=12&background=135%2C0D1117%2C160A10&border=EF4444&stroke=8B5CF6&ring=FF0066&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=34EACB&sideLabels=FF0066&dates=94A3B8" alt="Mieow contribution streak" />
+</div>
 
-### Achievements (Current)
-- ✅ Year 3 IT student (E-Commerce major), actively building graduation-oriented projects.
-- ✅ Built and maintained multiple personal web/game/tool mini projects.
-- ✅ Consistent AI-assisted coding workflow with self-driven planning.
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/current-focus.svg" alt="Current quest — active missions" />
 
-### CV
-- 📄 [View My CV](./CV.md)
+- **COMMERCE //** Building graduation-oriented E-Commerce products.
+- **AI SYSTEMS //** Exploring AI features that solve real workflow problems.
+- **ENGINEERING //** Improving architecture, documentation, testing, and product delivery.
 
-<p align="center">
-  <img src="./assets/headings/just-for-fun.svg" width="82%" alt="Just for Fun" />
-</p>
-<p align="center">
-  <img src="./favicon.gif" width="90" alt="Fun gif"/>
-</p>
-<p align="center">
-  <img src="./assets/fun-card.svg" width="100%" alt="Fun card"/>
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-divider.svg" alt="" />
+
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/headings/thought.svg" alt="Digital garden — connect and discover" />
+
+<div align="center">
+
+  **Open to learning, collaboration, and interesting product ideas.**
+
+  <a href="https://bio.mieowparadise.io.vn/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-FF0066?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/EmBeHocCode/EmBeHocCode/blob/main/CV.md">
+    <img src="https://img.shields.io/badge/CV-EF4444?style=for-the-badge&logo=readme&logoColor=white" alt="CV" />
+  </a>
+  <a href="https://www.facebook.com/hungng.0505/">
+    <img src="https://img.shields.io/badge/FACEBOOK-34EACB?style=for-the-badge&logo=facebook&logoColor=0D1117" alt="Facebook" />
+  </a>
+
+  <br /><br />
+
+  <sub>Build with intention. Learn by shipping. Stay curious.</sub>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/EmBeHocCode/EmBeHocCode/main/assets/mieow-footer.svg" alt="Mieow red and pink profile footer" />
